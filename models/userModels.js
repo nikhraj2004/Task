@@ -13,6 +13,8 @@ const userSchema = new mongoose.Schema({
       allDay: { type: Boolean, default: false },
       notes: { type: String, default: '' }
     }
+
+    
   ]
 })
 
